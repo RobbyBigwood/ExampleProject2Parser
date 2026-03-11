@@ -8,7 +8,7 @@ In this project i have a project that will:
 
 1. Read a text file containing lexemes and their corresponding token types (one pair per line).
 2. Converts that input into an arrayList of `Token` objects.
-3. Uses unit testing to validate the correctness of your implementation.
+3. Uses unit testing to validate the correctness of my implementation.
 ```
 proj2/
  ├── Token.java
@@ -16,6 +16,10 @@ proj2/
  ├── TokenReader.java
  ├── TokenReaderTest.java
  ├── TokenTest.java
+ ├── Main.java
+ ├── Recognizer.java
+ ├── RecognizerTest.java
+ ├── junit.jar
  └── README.md
 ```
  ## Input Format
@@ -40,7 +44,7 @@ will contain the methods to read in the file and convert it to a token arrayList
 
 # TokenReaderTest.java
 
-will test if the tokenreader method/class will work will all sorts of inputs (in the future it will handle errors)
+will test if the tokenreader method/class will work with all sorts of inputs (in the future it will handle errors)
 
 # TokenTest.java
 
@@ -48,12 +52,12 @@ will test if the tokens are formatted correctly and if the individual setters an
 
 ## Run the program
 
-to run the program please do these two commands
+ to test the program please do these two commands
 
 javac -cp ".\junit.jar;." *.java
 
 java -jar .\junit.jar execute -cp . --scan-classpath .
 
-# alternatively
+alternatively to run the program
 
 java Main (filename)
